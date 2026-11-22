@@ -1,0 +1,9 @@
+# Python 侧
+# pip 若被系统代理拦（Clash 报 502），清空代理并换清华源：
+#   HTTP_PROXY= HTTPS_PROXY= http_proxy= https_proxy= \
+#   pip install -r requirements.txt --index-url https://pypi.tuna.tsinghua.edu.cn/simple
+camoufox[geoip]>=0.4.11
+pymupdf>=1.24.0
+
+# Node 侧（access_check.js / ieee_batch.js）
+# npm install playwright   （复用本机 Chromium，不必 playwright install）
